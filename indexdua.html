@@ -43,47 +43,18 @@
     </div>
 
     <!-- Menu -->
-    <div class="container" onclick="expand()">
-        <div class="toggle" id="toggle">
-            <span class="material-icons" id="add">groups</span>
+    <div class="row-dua">
+        <div class="col col-satu-row-dua">
+            <img src="assets/images/Menu HRIS.png" alt="logo">
+        </div>
+        <div class="col col-dua-row-dua">
+            <img src="assets/images/Menu IT Services.png" alt="logo">
+        </div>
+        <div class="col col-tiga-row-dua">
+            <img src="assets/images/Menu Manufacture.png" alt="logo">
         </div>
     </div>
 
-    <div class="menu" id="menu">
-        <div class="item">
-            <a href="#">
-                <i class="material-icons">home</i>
-            </a>
-        </div>
-        <div class="item">
-            <a href="#">
-                <i class="material-icons">notifications</i>
-            </a>
-        </div>
-    </div>
-    <!-- End Section Menu-->
-
-  <!-- Custome JS -->
-  <script type="text/javascript">
-    var j=0;
-    var i=document.getElementById("menu").childNodes;
-    function expand() {
-       if(j==0){
-            document.getElementById("add").style.transform = 'rotate(45deg)';
-            document.getElementById("menu").style.transform = 'scale(1)';
-            i[1].style.transform='translateY(-160px)';
-            i[3].style.transform='translate(140px,-80px)';
-            j=1;
-       }
-       else {
-           document.getElementById("add").style.transform = 'rotate(0deg)';
-           document.getElementById("menu").style.transform = 'scale(0.9)';
-            i[1].style.transform='translateY(0)';
-            i[3].style.transform='translate(0)';
-           j=0
-       }
-    }
-</script>
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -91,6 +62,7 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
