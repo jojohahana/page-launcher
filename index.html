@@ -42,7 +42,7 @@
         </div>
     </div>
 
-    <!-- Menu -->
+    <!-- Menu HRIS -->
     <div class="container" onclick="expand()">
         <div class="toggle" id="toggle">
             <span class="material-icons" id="add">groups</span>
@@ -61,6 +61,47 @@
             </a>
         </div>
     </div>
+
+    <!-- Menu IT Services -->
+    <div class="container-dua" onclick="expand()">
+        <div class="toggle" id="toggle">
+            <span class="material-icons" id="add-dua">computer</span>
+        </div>
+    </div>
+
+    <div class="menu-dua" id="menu-dua">
+        <div class="item-dua">
+            <a href="#">
+                <i class="material-icons">home</i>
+            </a>
+        </div>
+        <div class="item-dua">
+            <a href="#">
+                <i class="material-icons">notifications</i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Menu Manufacture -->
+    <div class="container-tiga" onclick="expand()">
+        <div class="toggle" id="toggle">
+            <span class="material-icons" id="add-tiga">precision_manufacturing</span>
+        </div>
+    </div>
+
+    <div class="menu-tiga" id="menu-tiga">
+        <div class="item-tiga">
+            <a href="#">
+                <i class="material-icons">home</i>
+            </a>
+        </div>
+        <div class="item-tiga">
+            <a href="#">
+                <i class="material-icons">notifications</i>
+            </a>
+        </div>
+    </div>
+
     <!-- End Section Menu-->
 
   <!-- Custome JS -->
@@ -69,7 +110,7 @@
     var i=document.getElementById("menu").childNodes;
     function expand() {
        if(j==0){
-            document.getElementById("add").style.transform = 'rotate(45deg)';
+            document.getElementById("add").style.transform = 'scale(1.5)';
             document.getElementById("menu").style.transform = 'scale(1)';
             i[1].style.transform='translateY(-160px)';
             i[3].style.transform='translate(140px,-80px)';
