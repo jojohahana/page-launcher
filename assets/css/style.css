@@ -1,0 +1,39 @@
+#body {
+    position: relative;
+    background: #283593;
+}
+
+/* Logo TCH */
+.col-satu-row-satu {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* Logo Honeycomb TCH */
+.col-dua-row-satu {
+    position: absolute;
+    top: -44px;
+    right: -50px;
+}
+
+/* Menu HRIS */
+.col-satu-row-dua {
+    position: absolute;
+    top: 464px;
+    left: 30px;
+}
+
+/* Menu IT Services */
+.col-dua-row-dua {
+    position: absolute;
+    top: 535px;
+    left: 160px;
+}
+
+/* Menu Manufacture */
+.col-tiga-row-dua {
+    position: absolute;
+    top: 464px;
+    left: 289px;
+}
