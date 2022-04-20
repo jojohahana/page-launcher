@@ -144,7 +144,7 @@ a>.material-icons:hover {
     top: 500px;
     bottom: 190px;
     left: -90px;
-    right: 875px;
+    right: 852px;
     cursor: pointer;
 }
 
@@ -184,7 +184,7 @@ a>.material-icons:hover {
     position: absolute;
     top: 0;
     transition: 1s;
-    left: 10px;
+    left: 8px;
 }
 
 .item-dua:before {
@@ -233,7 +233,7 @@ a>.material-icons:hover {
     top: 460px;
     bottom: 300px;
     left: -90px;
-    right: 620px;
+    right: 580px;
     cursor: pointer;
 }
 
@@ -273,7 +273,7 @@ a>.material-icons:hover {
     position: absolute;
     top: 0;
     transition: 1s;
-    left: 10px;
+    left: 8px;
 }
 
 .item-tiga:before {

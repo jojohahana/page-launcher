@@ -60,6 +60,11 @@
                 <i class="material-icons">notifications</i>
             </a>
         </div>
+        <div class="item">
+            <a href="#">
+                <i class="material-icons">info</i>
+            </a>
+        </div>
     </div>
 
     <!-- Menu IT Services -->
@@ -73,6 +78,11 @@
         <div class="item-dua">
             <a href="#">
                 <i class="material-icons">home</i>
+            </a>
+        </div>
+        <div class="item-dua">
+            <a href="#">
+                <i class="material-icons">notifications</i>
             </a>
         </div>
         <div class="item-dua">
@@ -100,6 +110,16 @@
                 <i class="material-icons">notifications</i>
             </a>
         </div>
+        <div class="item-tiga">
+            <a href="#">
+                <i class="material-icons">notifications</i>
+            </a>
+        </div>
+        <div class="item-tiga">
+            <a href="#">
+                <i class="material-icons">notifications</i>
+            </a>
+        </div>
     </div>
 
     <!-- End Section Menu-->
@@ -114,6 +134,7 @@
             document.getElementById("menu").style.transform = 'scale(1)';
             i[1].style.transform='translateY(-160px)';
             i[3].style.transform='translate(140px,-80px)';
+            i[5].style.transform='translateY(160px)';
             j=1;
        }
        else {
@@ -121,10 +142,59 @@
            document.getElementById("menu").style.transform = 'scale(0.9)';
             i[1].style.transform='translateY(0)';
             i[3].style.transform='translate(0)';
+            i[5].style.transform='translateY(0)';
            j=0
        }
     }
 </script>
+<script type="text/javascript">
+    var b=0;
+    var a=document.getElementById("menu-dua").childNodes;
+    function expand() {
+       if(b==0){
+            document.getElementById("add-dua").style.transform = 'scale(1.5)';
+            document.getElementById("menu-dua").style.transform = 'scale(1)';
+            a[1].style.transform='translate(140px,80px)';
+            a[3].style.transform='translateY(160px)';
+            a[5].style.transform='translate(-140px,80px)';
+            b=1;
+       }
+       else {
+           document.getElementById("add-dua").style.transform = 'rotate(0deg)';
+           document.getElementById("menu-dua").style.transform = 'scale(0.9)';
+           a[1].style.transform='translate(0)';
+           a[3].style.transform='translateY(0)';
+           a[5].style.transform='translate(0)';
+           b=0
+       }
+    }
+</script> 
+<script type="text/javascript">
+    var y=0;
+    var x=document.getElementById("menu-tiga").childNodes;
+    function expand() {
+       if(b==0){
+            document.getElementById("add-tiga").style.transform = 'scale(1.5)';
+            document.getElementById("menu-tiga").style.transform = 'scale(1)';
+            x[1].style.transform='translateY(-160px)';
+            x[3].style.transform='translate(140px,-80px)';
+            x[5].style.transform='translate(140px,80px)';
+            x[7].style.transform='translateY(160px)';
+            y=1;
+       }
+       else {
+           document.getElementById("add-tiga").style.transform = 'rotate(0deg)';
+           document.getElementById("menu-tiga").style.transform = 'scale(0.9)';
+           x[1].style.transform='translateY(0)';
+           x[3].style.transform='translate(0)';
+           x[5].style.transform='translate(0)';
+           x[7].style.transform='translateY(0)';
+           y=0
+       }
+    }
+</script>
+<!-- End Custom JS for -->
+
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
