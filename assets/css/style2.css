@@ -1217,6 +1217,7 @@ body {
   #footer .footer-top {
     padding: 60px 0 30px 0;
   }
+  /*
   #footer .footer-top .footer-info {
     margin-bottom: 15px;
     background: #001064;
@@ -1341,5 +1342,5 @@ body {
   @media (max-width: 575px) {
     #footer .footer-top .footer-info {
       margin: -20px 0 30px 0;
-    }
-  }
+    } 
+  } */
