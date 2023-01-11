@@ -33,6 +33,7 @@
 </head>
 
 <body style="background-color: #283593">
+    <!-- Header Logo & Main Logo TCH  -->
     <div class="row-satu">
         <div class="col col-satu-row-satu">
             <img src="assets/images/Logo Top TCH.png" alt="logo"/>
@@ -48,7 +49,6 @@
             <span class="material-icons" id="add">groups</span>
         </div>
     </div>
-
     <div class="menu" id="menu">
         <div class="item">
             <a href="#">
@@ -62,19 +62,63 @@
         </div>
         <div class="item">
             <a href="#">
-                <i class="material-icons">info</i>
+                <i class="material-icons">mail</i>
+            </a>
+        </div>
+        <div class="item">
+            <a href="#">
+                <i class="material-icons">add_a_photo</i>
+            </a>
+        </div>
+        <div class="item">
+            <a href="#">
+                <i class="material-icons">videocam</i>
+            </a>
+        </div>
+        <div class="item">
+            <a href="#">
+                <i class="material-icons">search</i>
             </a>
         </div>
     </div>
 
+    <!-- <div class="menu" id="menu">
+        <div class="item">
+            <a href="#">
+                <i class="material-icons">home</i> 
+            </a>
+        </div>
+        <div class="item">
+            <a href="#">
+                <i class="material-icons">notifications</i>
+            </a>
+        </div>
+        <div class="item">
+            <a href="#">
+                <i class="material-icons">mail</i>
+            </a>
+        </div>
+        <div class="item">
+            <a href="#">
+                <i class="material-icons">videocam</i>
+            </a>
+        </div>
+        <div class="item">
+            <a href="#">
+                <i class="material-icons">search</i>
+            </a>
+        </div>
+    </div> -->
+
     <!-- Menu IT Services -->
-    <div class="container-dua" onclick="expand()">
+    <div class="container-dua">
         <div class="toggle" id="toggle">
             <span class="material-icons" id="add-dua">computer</span>
         </div>
     </div>
 
-    <div class="menu-dua" id="menu-dua">
+    <!-- Sub Menu IT Services  -->
+    <!-- <div class="menu-dua" id="menu-dua">
         <div class="item-dua">
             <a href="#">
                 <i class="material-icons">home</i>
@@ -90,16 +134,17 @@
                 <i class="material-icons">notifications</i>
             </a>
         </div>
-    </div>
+    </div> -->
 
     <!-- Menu Manufacture -->
-    <div class="container-tiga" onclick="expand()">
+    <div class="container-tiga">
         <div class="toggle" id="toggle">
             <span class="material-icons" id="add-tiga">precision_manufacturing</span>
         </div>
     </div>
 
-    <div class="menu-tiga" id="menu-tiga">
+    <!-- Sub Menu Manufacture  -->
+    <!-- <div class="menu-tiga" id="menu-tiga">
         <div class="item-tiga">
             <a href="#">
                 <i class="material-icons">home</i>
@@ -120,16 +165,11 @@
                 <i class="material-icons">verified</i>
             </a>
         </div>
-    </div>
+    </div> -->
 
     <!-- Insert Footer Title -->
-    <div id="footer"> 
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                </div>
-            </div>
-        </div>
+    <div class="p-2 w-9 bg-slate-300">
+
     </div>
     <!-- End Section Menu-->
 
@@ -139,11 +179,14 @@
     var i=document.getElementById("menu").childNodes;
     function expand() {
        if(j==0){
-            document.getElementById("add").style.transform = 'scale(1.5)';
+            document.getElementById("add").style.transform = 'rotate(0deg)';
             document.getElementById("menu").style.transform = 'scale(1)';
             i[1].style.transform='translateY(-160px)';
             i[3].style.transform='translate(140px,-80px)';
-            i[5].style.transform='translateY(160px)';
+            i[5].style.transform='translate(140px,80px)';
+            i[7].style.transform='translateY(160px)';
+            i[9].style.transform='translate(-140px,80px)';
+            i[11].style.transform='translate(-140px,-80px)';
             j=1;
        }
        else {
@@ -151,11 +194,15 @@
            document.getElementById("menu").style.transform = 'scale(0.9)';
             i[1].style.transform='translateY(0)';
             i[3].style.transform='translate(0)';
-            i[5].style.transform='translateY(0)';
+            i[5].style.transform='translate(0)';
+            i[7].style.transform='translateY(0)';
+            i[9].style.transform='translate(0)';
+            i[11].style.transform='translate(0)';
            j=0
        }
     }
-</script>
+    </script>
+<!--
 <script type="text/javascript">
     var b=0;
     var a=document.getElementById("menu-dua").childNodes;
@@ -201,7 +248,7 @@
            y=0
        }
     }
-</script> 
+</script> -->
 <!-- End Custom JS for -->
 
 </body>
